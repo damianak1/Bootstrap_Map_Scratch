@@ -62,6 +62,14 @@
               center: [-122.45, 37.77],
               zoom: 12
           });
+          
+          //hack to get the map to expand to 100% 
+          var h = $('body').height();
+          h = Math.round(h * .8);
+          $("#mainContainer").height(h);
+          BootstrapMap.bindTo(map);
+          $("#mainContainer").height('100%');
+          BootstrapMap.bindTo(map);
       });
 </script>
 <script src="Scripts/bootstrap.min.js"></script>
