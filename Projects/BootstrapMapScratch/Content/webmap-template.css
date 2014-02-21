@@ -1,0 +1,36 @@
+body {
+  padding-top: 50px;
+  background-color:black;
+}
+.toggleButton {
+position:absolute;
+top:20px;
+z-index:1000;
+}
+#toolBar {
+    color:#999;
+}
+#sidebar {
+    padding-top: 20px;
+}
+#mapDiv {
+    /*min-height: 250px;
+    max-height: 250px;*/
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+#mapLegendDiv {
+    /*height: 250px;*/
+    /*overflow: scroll;*/
+    margin-bottom: 20px;
+}
+
+#mapTitle {
+    margin-left: 15px;
+}
+
+/*body > .container {
+    padding-bottom: 20px;
+}*/
+
